@@ -1,0 +1,39 @@
+.footer {
+  &__top {
+    @include flex;
+    background-color: #f0f0f0;
+    //padding: 42px 174px 40px 166px;
+    padding: 42px 166px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__menu {
+    margin-left: 64px;
+    margin-right: 160px;
+    max-width: 600px;
+  }
+
+  &__bottom {
+    @include flex;
+    background-color: #1a1c1e;
+    height: 54px;
+    color: $base-white;
+    padding: 18px 166px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: normal;
+  }
+
+  &__policy {
+    text-decoration: none;
+    color: $base-white;
+    margin-left: 600px
+  }
+
+  &__text {
+    @include flex;
+    @include center-element;
+  }
+
+}

@@ -1,0 +1,7 @@
+.partners {
+    background-color: #cdf3ff;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    @include flex;
+    justify-content: center;
+}

@@ -1,0 +1,8 @@
+.socials {
+    @include flex;
+    &__links {
+        &:not(:first-child) {
+            margin-left: 24px;
+        }
+    }
+}

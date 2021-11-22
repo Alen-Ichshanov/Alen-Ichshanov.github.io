@@ -1,0 +1,19 @@
+.slider {
+    background-color: $base-white;
+    padding: 56px 198px 40px;
+    @include flex;
+    @include flex-column;
+    align-items: center;
+
+    &__image-wrap {
+        @include flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    &__image {
+        &:first-child {
+            margin-right: 28px;
+        }
+    }
+}

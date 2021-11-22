@@ -1,0 +1,72 @@
+.header {
+  @include flex;
+  @include flex-column;
+  background-color: $base-white;
+
+  &__search-container {
+    margin-left: 194px;
+  }
+
+  &__user {
+    margin-left: 210px;
+  }
+
+  &__geo {
+    @include flex;
+    margin-left: 40px;
+    min-width: 90px;
+    justify-content: space-between;
+  }
+
+  &__geo-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+  }
+
+  &__top {
+    @include center-element;
+    @include flex;
+
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+
+  &__hr {
+    border: 1px solid #d6d6d6;
+    width: 100%;
+    margin-bottom: 14px;
+  }
+
+  &__bottom {
+    @include center-element;
+    @include flex;
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+  }
+
+  &__catalog {
+    @include flex;
+    background-color: #ffdd00;
+    height: 100%;
+    width: 256px;
+    border-radius: 4px;
+    padding: 10px 42px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__menu {
+    margin-left: 76px;
+  }
+
+  &__controls {
+    margin-left: 220px;
+  }
+}

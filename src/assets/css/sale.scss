@@ -1,0 +1,16 @@
+.sale {
+  background-color: $base-white;
+  &__title {
+    text-align: center;
+    margin-bottom: 56px;
+  }
+
+  &__product-container {
+    margin-bottom: 54px;
+  }
+
+  &__container {
+    @include center-element;
+    width: 1258px;
+  }
+}

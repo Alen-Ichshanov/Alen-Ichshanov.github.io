@@ -1,0 +1,26 @@
+.menu-list {
+    @include flex;
+    list-style: none;
+    padding: 0;
+    font-weight: 500;
+    font-size: 16px;
+
+    &__menu-item {
+        &:not(:first-child) {
+            margin-left: 40px;
+        }
+    }
+
+
+    &__menu-link {
+        font-size: $font-size-16;
+        line-height: $line-height-24;
+        color: $base-black;
+        text-decoration: none;
+        position: relative;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

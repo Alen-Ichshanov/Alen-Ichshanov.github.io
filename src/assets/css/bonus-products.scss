@@ -1,0 +1,32 @@
+.bonus-products {
+  padding-top: 48px;
+  background-color: #f0f0f0;
+  &__title {
+    text-align: center;
+    margin-bottom: 56px;
+  }
+
+  &__container {
+    @include center-element;
+    @include flex;
+    @include flex-column;
+    width: 1258px;
+    padding-bottom: 44px;
+    align-items: center;
+  }
+
+  &__product-container {
+    margin-bottom: 56px;
+  }
+
+  &__button {
+    background: #7dc1d7;
+    border-radius: 4px;
+    width: 254px;
+    height: 40px;
+    border: none;
+    color: $base-white;
+    font-weight: 500;
+    font-size: 16px;
+  }
+}

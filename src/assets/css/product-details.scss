@@ -1,0 +1,38 @@
+.product-details {
+  width: 1062px;
+  background-color: $base-white;
+
+  &__tabs {
+    @include flex;
+    background: #d9efff;
+    border-radius: 6px 6px 0px 0px;
+  }
+
+  &__tab-item {
+    padding: 22px 66px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+
+    &_active {
+      background-color: $base-white;
+    }
+  }
+
+  &__tab-content {
+    padding: 36px 48px 48px 30px;
+    @include flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 25px;
+
+    &_rating {
+      justify-content: space-around;
+    }
+  }
+
+  &__image {
+    max-height: 254px;
+    margin-right: 54px;
+  }
+}

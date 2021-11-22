@@ -1,0 +1,26 @@
+.product {
+  background-color: #f4f4f4;
+  padding: 42px 190px 26px;
+  @include flex;
+  @include flex-column;
+  align-items: center;
+
+  &__product-desc {
+    margin-bottom: 40px;
+  }
+
+  &__go-back {
+    @include flex;
+    align-self: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.53);
+
+    & img {
+      margin-right: 18px;
+    }
+  }
+}

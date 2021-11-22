@@ -1,0 +1,20 @@
+.home {
+  &__banner {
+    @include flex;
+    margin-top: 24px;
+  }
+
+  &__sale {
+    margin-top: 54px;
+  }
+
+  &__bonus-products {
+    margin-top: 54px;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+  }
+}
